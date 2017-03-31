@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Do you know Yongseok?</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,6 +18,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
@@ -29,11 +30,26 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
-        #buy_btn{
-          background: linear-gradient(#42a1ec, #0070c9);
-          background-color: #0070c9;
-          border-radius: 4px;
-          height: 3vh;
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+        @import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+        .about_link {
+            font-family: 'Hanna', sans-serif;
+        }
+        .spec {
+            margin-bottom:20px;
+            padding: 0px;
+        }
+        .intro-text {
+            font-family: 'Josefin', cursive;
+        }
+        .intro {
+            background: url(../img/main_bg.png) bottom center no-repeat #000;
+        }
+        a {
+            color: #3D72C6;
+        }
+        #myblog {
+            color: #56FFE8;
         }
     </style>
 
@@ -66,8 +82,8 @@
                     <li>
                         <a class="page-scroll" href="#download">Specs</a>
                     </li>
-                    <li id="buy_btn">
-                        <a class="page-scroll" href="#contact">Buy</a>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -83,7 +99,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Kwon Yongseok</h1>
-                        <p class="intro-text">AWESOME, Itself
+                        <p class="intro-text">AWESOME, Itself.
                             <br>Kindness, Diligence and Solidity</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -99,9 +115,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About 권용석</h2>
-                <p>수원에서 평범한 고등학교 졸업<br/>한양대 ERICA캠퍼스 컴퓨터 공학과 입학 <a href="cse.hanyang.ac.kr">컴퓨터 공학과 둘러보기</a>. <br/>HEPC 입상</p>
-                <p>안산시 고등학생들에게 C언어 강의.<br/>멋쟁이 사자처럼 합격!!!!<a href="likelion.net"> 멋사 알아보기.</a></p>
-                <p>이번 학기에 수업시간에 한 것들<a href="http://blog.naver.com/totoey200"> 블로그 둘러보기</a></p>
+                <p>수원에서 평범한 고등학교 졸업<br/>한양대 ERICA캠퍼스 컴퓨터공학과 입학 <a class = "about_link" href="cse.hanyang.ac.kr">Hanyang CSE</a>.<br/>안산시 고등학생들에게 C언어 강의.</p>
+                <p>멋쟁이 사자처럼 멤버<a class = "about_link" href="likelion.net"> LikeLion</a></p>
             </div>
         </div>
     </section>
@@ -111,9 +126,18 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h1>Specs</h1>
+                    <ul type="none" class="spec">
+                        <h3>Check this out!!</h3>
+                        <li>HEPC 입상</li>
+                        <li>멋쟁이 사자처럼 합격</li>
+                    </ul>
+                    <ul type="none" class="spec">
+                        <h3>capacity</h3>
+                        <li>고기 한근가능</li>
+                        <li>1닭 가능</li>
+                    </ul>
+                    <h3>Look at this!!<br/><a class = "about_link" href="http://blog.naver.com/totoey200" target = "_blank" id="myblog"> My blog</a></h3>
                 </div>
             </div>
         </div>
@@ -123,19 +147,16 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                <h2>저랑 연락하고 싶으시다구요?</h2>
+                <p>이메일, facebook, github 등 언제든지 연락해주세요!!</p>
+                <p><a href="mailto:totoey200@gmail.com">totoey200@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://github.com/totoey200" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://www.facebook.com/totoey200" class="btn btn-default btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> <span class="network-name">Facebook</span></a>
                     </li>
                 </ul>
             </div>
@@ -143,12 +164,12 @@
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+    
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; Kwon Yongseok 2017</p>
         </div>
     </footer>
 
